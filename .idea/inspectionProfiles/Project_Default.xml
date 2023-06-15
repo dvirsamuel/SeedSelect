@@ -1,0 +1,73 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="60">
+            <item index="0" class="java.lang.String" itemvalue="imageio" />
+            <item index="1" class="java.lang.String" itemvalue="h5py" />
+            <item index="2" class="java.lang.String" itemvalue="json5" />
+            <item index="3" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="4" class="java.lang.String" itemvalue="wandb" />
+            <item index="5" class="java.lang.String" itemvalue="torch" />
+            <item index="6" class="java.lang.String" itemvalue="numpy" />
+            <item index="7" class="java.lang.String" itemvalue="torchvision" />
+            <item index="8" class="java.lang.String" itemvalue="torchaudio" />
+            <item index="9" class="java.lang.String" itemvalue="scikit-image" />
+            <item index="10" class="java.lang.String" itemvalue="traitlets" />
+            <item index="11" class="java.lang.String" itemvalue="scipy" />
+            <item index="12" class="java.lang.String" itemvalue="torchmetrics" />
+            <item index="13" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="14" class="java.lang.String" itemvalue="pytorch-fid" />
+            <item index="15" class="java.lang.String" itemvalue="scikit-video" />
+            <item index="16" class="java.lang.String" itemvalue="tqdm" />
+            <item index="17" class="java.lang.String" itemvalue="pytorch-lightning" />
+            <item index="18" class="java.lang.String" itemvalue="torch-fidelity" />
+            <item index="19" class="java.lang.String" itemvalue="tensorboard" />
+            <item index="20" class="java.lang.String" itemvalue="Pillow" />
+            <item index="21" class="java.lang.String" itemvalue="tensorboard-plugin-wit" />
+            <item index="22" class="java.lang.String" itemvalue="pickleshare" />
+            <item index="23" class="java.lang.String" itemvalue="pytest-runner" />
+            <item index="24" class="java.lang.String" itemvalue="waymo-open-dataset-tf-2-1-0" />
+            <item index="25" class="java.lang.String" itemvalue="interrogate" />
+            <item index="26" class="java.lang.String" itemvalue="spconv" />
+            <item index="27" class="java.lang.String" itemvalue="isort" />
+            <item index="28" class="java.lang.String" itemvalue="kwarray" />
+            <item index="29" class="java.lang.String" itemvalue="asynctest" />
+            <item index="30" class="java.lang.String" itemvalue="xdoctest" />
+            <item index="31" class="java.lang.String" itemvalue="ubelt" />
+            <item index="32" class="java.lang.String" itemvalue="open3d" />
+            <item index="33" class="java.lang.String" itemvalue="pandas" />
+            <item index="34" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="35" class="java.lang.String" itemvalue="six" />
+            <item index="36" class="java.lang.String" itemvalue="scikit_image" />
+            <item index="37" class="java.lang.String" itemvalue="scikit_learn" />
+            <item index="38" class="java.lang.String" itemvalue="torchmeta" />
+            <item index="39" class="java.lang.String" itemvalue="plyfile" />
+            <item index="40" class="java.lang.String" itemvalue="torch_ema" />
+            <item index="41" class="java.lang.String" itemvalue="torch_fidelity" />
+            <item index="42" class="java.lang.String" itemvalue="ConfigArgParse" />
+            <item index="43" class="java.lang.String" itemvalue="opencv_python" />
+            <item index="44" class="java.lang.String" itemvalue="blobfile" />
+            <item index="45" class="java.lang.String" itemvalue="streamlit-drawable-canvas" />
+            <item index="46" class="java.lang.String" itemvalue="transformers" />
+            <item index="47" class="java.lang.String" itemvalue="open-clip-torch" />
+            <item index="48" class="java.lang.String" itemvalue="gradio" />
+            <item index="49" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="50" class="java.lang.String" itemvalue="streamlit" />
+            <item index="51" class="java.lang.String" itemvalue="imageio-ffmpeg" />
+            <item index="52" class="java.lang.String" itemvalue="omegaconf" />
+            <item index="53" class="java.lang.String" itemvalue="albumentations" />
+            <item index="54" class="java.lang.String" itemvalue="kornia" />
+            <item index="55" class="java.lang.String" itemvalue="pudb" />
+            <item index="56" class="java.lang.String" itemvalue="test-tube" />
+            <item index="57" class="java.lang.String" itemvalue="webdataset" />
+            <item index="58" class="java.lang.String" itemvalue="invisible-watermark" />
+            <item index="59" class="java.lang.String" itemvalue="einops" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
