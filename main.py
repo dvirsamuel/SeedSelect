@@ -159,8 +159,8 @@ if __name__ == "__main__":
     elif sys.argv[1] == "NAO_SeedSelect":
         # run SeedSelect initialized with NAO seeds
         all_real_x_t = image_folder_to_ddim(img_folder, prompt, sd_model)
-        p1 = all_real_x_t[1].reshape((1, 4, 64, 64)).to("cuda")
-        p2 = all_real_x_t[2].reshape((1, 4, 64, 64)).to("cuda")
+        p1 = all_real_x_t[4].reshape((1, 4, 64, 64)).to("cuda")
+        p2 = all_real_x_t[3].reshape((1, 4, 64, 64)).to("cuda")
         dim = 4 * 64 * 64
 
         ### hyper-parameters

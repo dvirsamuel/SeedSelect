@@ -6,8 +6,8 @@ import torch.nn as nn
 # Define the objective function
 def objective(p1, p2, path, f, eps):
     # Compute the distances between consecutive x's
-    dist_1 = torch.unsqueeze(torch.norm(p1 - path[1, :].reshape(p1.shape)), dim=-1)
-    dists = torch.norm(path[1:, :] - path[:-1, :], dim=1)
+    dist_1 = torch.unsqueeze(torch.norm(p1 - path[0, :].reshape(p1.shape)), dim=-1)
+    dists = torch.norm(path[0:-1, :] - path[1:, :], dim=1)
     dist_n = torch.unsqueeze(torch.norm(p2 - path[-1, :].reshape(p2.shape)), dim=-1)
     dists = torch.cat((dist_1, dists, dist_n), dim=0)
     # values of the integrand

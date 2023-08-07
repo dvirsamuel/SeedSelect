@@ -123,9 +123,10 @@ class NullInversion:
 def image_folder_to_ddim(folder_path, prompt, ldm):
     null_inversion = NullInversion(ldm)
     all_x_t = []
-    for idx, p in tqdm(enumerate(os.listdir(folder_path)[:4])):
-        image_path = f"{folder_path}/{p}"
-        _, x_t, _ = null_inversion.invert(image_path, prompt)
+    for idx, p in tqdm(enumerate(os.listdir(folder_path))):
+        if p.endswith(".JPEG"):
+            image_path = f"{folder_path}/{p}"
+            _, x_t, _ = null_inversion.invert(image_path, prompt)
 
-        all_x_t += [torch.flatten(x_t)]
+            all_x_t += [torch.flatten(x_t)]
     return torch.stack(all_x_t)
