@@ -1,4 +1,4 @@
-# Code for *"Generating images of rare concepts using pre-trained diffusion models"* (AAAI 24) and *"Norm-guided latent space exploration for text-to-image generation"* (NeurIPS 23)
+# Code for *"Seed Exploration in Text-to-Image Diffusion Models"*
 
 ## Generating images of rare concepts using pre-trained diffusion models (AAAI 24)
 
@@ -52,7 +52,7 @@ Note that SeedSelect might be sensitive to the provided images and hyper-paramet
 For a faster convergence, use Norm-aware optimization for SeedSelect, described below.
 
 
-## Norm-guided latent space exploration for text-to-image generation
+## Norm-guided latent space exploration for text-to-image generation (NeurIPS 23)
 
 > Dvir Samuel, Rami Ben-Ari, Nir Darshan, Haggai Maron, Gal Chechik  
 > Bar-Ilan University, OriginAI, NVIDIA Research
