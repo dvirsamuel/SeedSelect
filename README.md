@@ -1,4 +1,4 @@
-# Code for *"Seed Exploration in Text-to-Image Diffusion Models"*
+# Code for *Seed Exploration in Text-to-Image Diffusion Models*
 
 ## Generating images of rare concepts using pre-trained diffusion models (AAAI 24)
 
@@ -50,6 +50,9 @@ python main.py SeedSelect tiger_cat imgs/tiger_cat
 
 Note that SeedSelect might be sensitive to the provided images and hyper-parameters. Furthermore, it might take more than 30 iterations (~5 minutes) to converge.
 For a faster convergence, use Norm-aware optimization for SeedSelect, described below.
+
+### Distribution of concepts in LAION2B
+Pre-computed concept frequencies of LAION2B-en can be found [here](https://biu365-my.sharepoint.com/:f:/g/personal/samueld_biu_ac_il/EpDy6A-591xFuqxkSQyyK4oBzQRRtAeOOFeQudyhgb62fw?e=PQPiZ3).
 
 
 ## Norm-guided latent space exploration for text-to-image generation (NeurIPS 23)
